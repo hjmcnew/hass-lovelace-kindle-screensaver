@@ -311,7 +311,7 @@ function convertImageToKindleCompatiblePngAsync(
       .rotate("white", pageConfig.rotation)
       .type(pageConfig.colorMode)
       .level(pageConfig.blackLevel, pageConfig.whiteLevel)
-      .bitdepth(pageConfig.grayscaleDepth);
+      .monochrome();
 
     // For BMP format, we don't set quality since it's not applicable
     if (pageConfig.imageFormat !== 'bmp') {
