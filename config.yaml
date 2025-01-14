@@ -8,7 +8,7 @@ arch:
   - aarch64
   - amd64
   - armv7
-url: 'https://github.com/sibbl/hass-lovelace-kindle-screensaver'
+url: 'https://github.com/hjmcnew/hass-lovelace-kindle-screensaver'
 image: 'sibbl/hass-lovelace-kindle-screensaver-ha-addon-{arch}'
 webui: 'http://[HOST]:[PORT:5000]'
 ingress: true
